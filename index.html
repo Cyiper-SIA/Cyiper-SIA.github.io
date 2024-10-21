@@ -7,38 +7,44 @@
     <style>
         @font-face {
             font-family: 'Mokoto';
-            src: url('/Mokoto-Demo.ttf') format('truetype'); /* Use 'truetype' instead of 'ttf' */
+            src: url('/Mokoto-Demo.ttf') format('truetype');
         }
 
         body {
-            display: flex; /* Use Flexbox for layout */
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
-            height: 100vh; /* Full viewport height */
-            margin: 0; /* Remove default margin */
-            background-color: #f0f0f0; /* Light background color */
-            font-family: 'Mokoto'; /* Set custom font */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: 'Mokoto';
+        }
+
+        h1 {
+            letter-spacing: 2px; /* Adjust letter spacing here */
         }
 
         .styled-link {
-            text-decoration: none; /* Remove underline */
-            color: white; /* Text color */
-            background-color: #007BFF; /* Background color */
-            padding: 10px 15px; /* Padding around the text */
-            border-radius: 5px; /* Rounded corners */
-            transition: background-color 0.3s; /* Smooth background color change */
-            font-family: 'Mokoto'; /* Set custom font */
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-family: 'Mokoto';
+            margin: 5px 0;
         }
         
         .styled-link:hover {
-            background-color: #0056b3; /* Darker blue on hover */
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
     <h1>CYIPER</h1>
-    <a href="https://tally.so/r/wzJB4g" target="_blank" class="styled-link">Shopping Online</a><br> <!-- Changed </br> to <br> -->
-    <a href="https://tally.so/r/3XMzkd" target="_blank" class="styled-link">Arabic</a><br> <!-- Changed </br> to <br> -->
+    <a href="https://tally.so/r/wzJB4g" target="_blank" class="styled-link">Shopping Online</a>
+    <a href="https://tally.so/r/3XMzkd" target="_blank" class="styled-link">Arabic</a>
     <a href="https://tally.so/r/wo7XRV" target="_blank" class="styled-link">Online Merchant</a>
 </body>
 </html>
